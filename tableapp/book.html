@@ -12,19 +12,19 @@
 
 <body>
     <div class="container-fluid">
-        <!--Nav Bar-->
+        <!-- Nav Bar -->
         <div class="row">
             <div class="col">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="index.html">Table Booking App</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-        
+
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-                           
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
@@ -34,82 +34,68 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="list.html">List</a>
                             </li>
-                            
-                            
                         </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
                     </div>
                 </nav>
             </div>
-
-            </div>
-            <!--Jumbotron-->
-            <div class="row">
-                <div class="col">
-
-                    <div class="jumbotron">
-                        <h1 class="display-4">yes...you are here!</h1>
-                        <p class="lead">Tell us your plan we will call you !</p>
-                        
-                      </div>
-                    </div>
-                    </div>
-                    <!--Booking form-->
-                    <div class="row">
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="userName">Name</label>
-                                <input type="text" class="form-control" id="userName">
-                               
-                              </div>
-
-                        </div>
-
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                              </div>
-                            
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="userPax">Pax</label>
-                                <select class="form-control" id="userPax">
-                                  <option>1</option>
-                                  <option>2</option>
-                                  <option>3</option>
-                                  <option>4</option>
-                                  <option>5</option>
-                                </select>
-                              </div>
-
-                            </div>
-        
-                                <div class="col">
-                                    <div class="form-group">
-                                        <label for="userRemarks">Remarks</label>
-                                        <textarea class="form-control" id="userRemarks" rows="3"></textarea>
-                                      </div>
-                                      <button type="button" class="btn btn-primary float-right">book now</button>
-                                    
-                                    
-                                    </div>
-                                   
-                    </div>
-
-
-                    
-
         </div>
-       
+
+        <!-- Jumbotron -->
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron">
+                    <h1 class="display-4">Yess...you are here!</h1>
+                    <p class="lead">Tell us your plan and we will call you!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Booking Form -->
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="userName">Name</label>
+                    <input type="text" class="form-control" id="userName">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="userEmail">Email address</label>
+                    <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="userPax">Pax</label>
+                    <select class="form-control" id="userPax">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="userRemarks">Remarks</label>
+                    <textarea class="form-control" id="userRemarks" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary float-right" id="bookNow">Book Now</button>
+            </div>
+        </div>
+
+
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -118,8 +104,6 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
     <script src="js/book.js"></script>
-
-
 </body>
 
 </html>
