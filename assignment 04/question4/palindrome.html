@@ -55,13 +55,13 @@
     for(i = 0; i < halfLen; i++){
       if( txt_new[i] !== txt_new[len-1-i]){
         result.textContent = "No! It's Not a Paalindrome Word.";
-        decision="wrong statement";
+        decision="false";
         alert(decision);
         return;
       
       }
       result.textContent = "Yes! It's a Palindrome Word.";
-      decision="Right statement";
+      decision="true";
         alert(decision);
      
     }
