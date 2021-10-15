@@ -16,7 +16,7 @@ bookNowBtn.addEventListener("click", function () {
 })
 
 function BookNow(userName, userEmail, userPax, userRemarks) {
-    let url = 'https://api.sheety.co/b9b23bacbce0fa05289abc34d8cf52e6/bookingApp2/bookings';
+    let url = 'https://api.sheety.co/358194413db22922f7d5fe2687e70e02/bookingApp/bookings';
     let body = {
         booking: {
             name: userName,
